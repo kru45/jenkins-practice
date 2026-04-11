@@ -11,7 +11,7 @@ pipeline {
       steps {
         echo 'Building Project....'
         sh 'mkdir build'
-        sh 'cp app.txt build/
+        sh 'cp app.txt build/'
   }
 }
     stage ('Create Artifactory') {
