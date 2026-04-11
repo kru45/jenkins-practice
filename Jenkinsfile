@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage ('GitHub Test') {
       steps {
-        echo 'Auto trigger test v3'
+        echo 'Auto trigger test v4'
       }
     }
   }
