@@ -19,7 +19,7 @@ pipeline {
         sh 'tar -cvf build.tar build/'
       }
     }
-}
+
 post {
   success {
     echo 'Build & Artifact created successfully'
