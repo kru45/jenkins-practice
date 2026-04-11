@@ -25,4 +25,3 @@ post {
     echo 'Build & Artifact created successfully'
   }
 }
-}
