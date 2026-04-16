@@ -13,15 +13,17 @@ pipeline {
         sh 'mkdir build'
         sh 'cp app.txt build/'
   }
-}
+
     stage ('Create Artifactory') {
       steps {
         sh 'tar -cvf build.tar build/'
       }
     }
-}
+
 post {
   success {
     echo 'Build & Artifact created successfully'
   }
 }
+}
+} 
